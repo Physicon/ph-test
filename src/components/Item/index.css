@@ -1,0 +1,107 @@
+.sci-figure {
+    position: relative;
+    overflow: hidden;
+    height: 134px;
+    background: #ddd;
+}
+
+.sci-info {
+    padding: 10px 16px;
+}
+
+.sci-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sci-info > .sci-title {
+    margin: 0;
+}
+
+.sci-info > .sci-grade {
+    margin-top: -.2em;
+}
+
+.sci-info > .sci-genre {
+    margin-top: -.4em;
+    font-size: 11px;
+}
+
+.sci-figure img {
+    max-width: 100%;
+}
+
+.sci-info > .sci-controls {
+    margin-bottom: 0;
+    padding-left: 0;
+    font-size: 12px;
+}
+
+img {
+    border: 0;
+}
+
+.sci-info > .sci-meta {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: #00c1ff;
+}
+
+a {
+    color: #00c1ff;
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+.sci-meta a:hover {
+    text-decoration: underline;
+}
+
+.sci-info > .sci-controls > .pure-button, .sci-info > .sci-controls > .btn, .sci-info > .header-nav.sci-controls > .header-btn, .sci-info > .header-user-dropdown.sci-controls > a {
+    padding: .4em .1em;
+    border-radius: 6px;
+    background: #00c1ff;
+}
+
+.pure-button-primary, .btn-primary, .header-nav > .header-btn-primary, .pure-button-selected, a.pure-button-primary, a.btn-primary, .header-nav > a.header-btn-primary, a.pure-button-selected {
+    background-color: #0078e7;
+    color: #fff;
+}
+
+.btn-fluid {
+    display: block !important;
+}
+
+.pure-button, .btn, .header-nav > .header-btn, .header-user-dropdown > a {
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: #444;
+    color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #999;
+    border: none transparent;
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.pure-button, .btn, .header-nav > .header-btn, .header-user-dropdown > a {
+    display: inline-block;
+    zoom: 1;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+}

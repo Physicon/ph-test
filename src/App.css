@@ -1,0 +1,169 @@
+.courses-list {
+    overflow: hidden;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    list-style: none;
+    margin: 60px 0 20px;
+    padding: 0;
+}
+
+.courses-sci {
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+    margin: 0 15px 55px;
+    width: 170px;
+    min-height: 260px;
+    border: solid 1px #b5b5b5;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.u-text-center {
+    text-align: center !important;
+}
+
+.courses {
+    overflow: hidden;
+}
+
+.u-mt-30 {
+    margin-top: 30px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 32px;
+    color: #3c3c3b;
+    font-size: 36px;
+}
+
+.courses,.div-checkbox {
+    overflow: hidden;
+    padding: 0 15px;
+}
+
+.div-checkbox {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.courses > div {
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    padding: 0 0 15px;
+    width: 100%;
+}
+
+.courses select {
+    padding: .3em .5em;
+    height: 2.3em;
+    background-color: #fff;
+    border: 1px solid #706f6f;
+}
+
+.courses input[type="text"], .courses select {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: .2em .5em;
+    font-size: 14px;
+    vertical-align: middle;
+    border: 1px solid #706f6f;
+    border-radius: 6px;
+}
+
+button, input, select {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+button, select {
+    text-transform: none;
+}
+
+select {
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+}
+
+.courses-form-search-btn {
+    display: inline-block;
+    margin-left: 6px;
+    width: 32px;
+    height: 32px;
+    line-height: normal;
+    background: #fff url(https://www.imumk.ru/Content/skins/bubble/images/icons/icon-search-25.png) center no-repeat;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.courses > div:last-child {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.courses input[type="text"], .courses select {
+    width: 100%;
+}
+
+
+    @media screen and (min-width: 36em) {
+    .courses > div:last-child {
+        padding: 0 0 15px;
+        width: 100%;
+    }
+
+    .courses > div {
+        padding: 0 11px 15px;
+        width: 33.3333%;
+    }
+    .courses > div:first-child {
+        padding-left: 0;
+    }
+    .courses-form > div:nth-child(3) {
+        padding-right: 0;
+    }
+    .courses-form > div:last-child {
+            padding: 0 0 15px;
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 48em) {
+    .courses > div {
+        padding: 0 14px;
+        width: 25%;
+    }
+    .courses > div:first-child {
+        padding-left: 0;
+    }
+    .courses > div:nth-child(3) {
+        padding-right: 11px;
+    }
+    .courses > div:last-child {
+        padding-left: 11px;
+        width: 25%;
+     } 
+    }
